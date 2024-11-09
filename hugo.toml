@@ -4,5 +4,5 @@ title = 'LinUtil Docs'
 theme = 'relearn'
 
 [params]
-  themeVariant = ['relearn-light', 'relearn-dark']
+  themeVariant = ['zen-dark','zen-light' ]
   linkTitle = 'Relearn'
