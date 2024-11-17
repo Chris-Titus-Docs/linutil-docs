@@ -3,8 +3,6 @@ date = '2024-10-31T18:30:23Z'
 title = 'Contributing'
 +++
 
-# Contributing Guidelines for Linutil
-
 Thank you for considering contributing to Linutil! We appreciate your effort in helping improve this project. To ensure that your contributions align with the goals and quality standards of Linutil, please follow these guidelines:
 
 ## 1. **Install Rust**: 
