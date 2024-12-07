@@ -63,5 +63,5 @@ jobs:
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
-          git add /content/userguide.md
+          git add /src/userguide.md
           git commit -m "Commit the user guide" || echo "No changes to commit"

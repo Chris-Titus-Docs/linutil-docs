@@ -1,8 +1,0 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'LinUtil Docs'
-theme = 'relearn'
-
-[params]
-  themeVariant = ['zen-dark','zen-light' ]
-  linkTitle = 'Relearn'
