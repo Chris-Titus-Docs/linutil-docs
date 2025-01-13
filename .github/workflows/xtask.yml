@@ -1,7 +1,22 @@
 name: XTasks
 
 on:
-  workflow_dispatch:
+  pull_request:
+    paths:
+      - "xtask"
+      - "Cargo.toml"
+      - "Cargo.lock"
+      - ".cargo"
+      - "core/tabs"
+      - "docs"
+  push:
+    paths:
+      - "xtask"
+      - "Cargo.toml"
+      - "Cargo.lock"
+      - ".cargo"
+      - "core/tabs"
+      - "docs"
 
 env:
   CARGO_TERM_COLOR: always
@@ -48,5 +63,5 @@ jobs:
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
-          git add /src/userguide.md
+          git add /content/userguide.md
           git commit -m "Commit the user guide" || echo "No changes to commit"

@@ -1,3 +1,6 @@
+[submodule "themes/relearn"]
+	path = themes/relearn
+	url = https://github.com/McShelby/hugo-theme-relearn.git
 [submodule "linutil"]
 	path = linutil
 	url = https://github.com/ChrisTitusTech/linutil.git
